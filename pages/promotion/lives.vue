@@ -231,7 +231,7 @@ export default {
       ); // 开发者在直播间页面路径上携带自定义参数，后续可以在分享卡片链接和跳转至商详页时获取，详见【获取自定义参数】、【直播间到商详页面携带参数】章节（上限600个字符，超过部分会被截断）
       uni.navigateTo({
         url:
-          "plugin-private://wx68f7a412342bf07d/pages/live-player-plugin?room_id=" +
+          "plugin-private://wxa088d5a52ee4c3ed/pages/live-player-plugin?room_id=" +
           roomId +
           "&custom_params=" +
           customParams,

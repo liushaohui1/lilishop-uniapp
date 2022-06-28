@@ -188,13 +188,13 @@
     "mp-weixin" : {
         /* 小程序特有相关 */
         "usingComponents" : true,
-        "appid" : "wx6f10f29075dc1b0b",
+        "appid" : "wxa088d5a52ee4c3ed",
         "optimization" : {
             "subPackages" : true
         },
         "setting" : {
             "urlCheck" : false,
-            "minified" : true,
+            "minified" : false,
             "postcss" : false,
             "es6" : true
         },
@@ -202,14 +202,14 @@
             "scope.userLocation" : {
                 "desc" : "位置信息将用于高德地图的效果展示"
             }
-        },
-        "plugins" : {
-            "live-player-plugin" : {
-                "version" : "1.3.0",
-                "provider" : "wx2b03c6e691cd7370"
-            }
         }
     },
+    // "plugins" : {
+    //     "live-player-plugin" : {
+    //         "version" : "1.3.0",
+    //         "provider" : "wxa088d5a52ee4c3ed"
+    //     }
+    // }
     "h5" : {
         "devServer" : {
             "disableHostCheck" : true
